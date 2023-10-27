@@ -11,12 +11,8 @@
   },
   "keywords": [
     "Greenwood",
-    "Vercel",
-    "WCC",
-    "Web Components",
-    "Serverless",
-    "Edge",
-    "SSR"
+    "GitHub Pages",
+    "Web Components"
   ],
   "scripts": {
     "dev": "greenwood develop",
