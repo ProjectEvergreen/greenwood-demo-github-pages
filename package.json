@@ -21,9 +21,11 @@
   "scripts": {
     "dev": "greenwood develop",
     "build": "greenwood build",
-    "serve": "greenwood serve"
+    "serve": "greenwood serve",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.29.0-alpha.5"
+    "@greenwood/cli": "~0.29.0-alpha.5",
+    "patch-package": "^8.0.0"
   }
 }
