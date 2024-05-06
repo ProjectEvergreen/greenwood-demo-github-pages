@@ -15,11 +15,13 @@
     "Web Components"
   ],
   "scripts": {
+    "clean": "rimraf ./public ./greenwood",
     "dev": "greenwood develop",
     "build": "greenwood build",
-    "serve": "greenwood serve"
+    "serve": "npm run clean && npm run build && greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.29.0"
+    "@greenwood/cli": "~0.29.0",
+    "rimraf": "^5.0.5"
   }
 }
