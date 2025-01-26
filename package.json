@@ -21,7 +21,7 @@
     "serve": "npm run clean && npm run build && greenwood serve"
   },
   "devDependencies": {
-    "@greenwood/cli": "~0.31.0-alpha.5",
+    "@greenwood/cli": "~0.31.0-alpha.6",
     "rimraf": "^6.0.0"
   }
 }
